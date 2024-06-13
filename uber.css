@@ -1,0 +1,61 @@
+.myheader{
+    background-color: black;
+}
+body{
+    font-family: Uber,helvetica;
+}
+@media (max-width: 1000px) {
+    .dessss {
+        display: none;
+    }
+}
+.asd{
+    color: white;
+}
+.form1{
+    margin-bottom: 1rem;
+}
+.form2{
+    margin-bottom: 2rem;
+
+    }
+    @media (max-width: 760px) {
+        .reverse {
+            flex-direction: column-reverse;
+        }
+    }
+
+
+
+.lists:hover{
+    color: gray;
+}
+.kochi{
+    flex-direction: row;
+    justify-content:flex-end;
+}
+@media (max-width: 700px){
+    .kochi{
+        flex-direction: column;
+    }
+}
+@media(max-width:700px){
+    .navbuttons{
+        justify-content: flex-end;
+    }
+
+}
+@media(max-width:700px){
+    .end{
+        flex-direction: column;
+    }
+}
+.captions{
+    width: 20rem;
+}
+@media(max-width:700px){
+    .captions{
+        padding-top: 2rem;
+        
+    }
+}
